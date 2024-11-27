@@ -1,0 +1,304 @@
+[
+    {
+      "product_id": "401",
+      "product_title": "Dell XPS 13 Laptop",
+      "product_image": "https://i.ibb.co.com/ws1BJN7/download.jpg",
+      "category": "Laptop",
+      "price": 1199.99,
+      "description": "13-inch ultrabook with an Intel i7 processor and ultra-fast SSD storage.",
+      "specification": [
+        "1. Intel Core i7 processor",
+        "2. 16GB RAM",
+        "3. 512GB SSD",
+        "4. 13.3-inch Full HD display",
+        "5. Windows 11"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "402",
+      "product_title": "MacBook Pro 14-inch M2",
+      "product_image": "https://i.ibb.co.com/pzF0sFT/22.jpg",
+      "category": "MacBook",
+      "price": 1999.99,
+      "description": "MacBook Pro with Apple's M2 chip, offering powerful performance and long battery life.",
+      "specification": [
+        "1. Apple M2 chip",
+        "2. 16GB RAM",
+        "3. 512GB SSD",
+        "4. 14-inch Retina display",
+        "5. Up to 20 hours battery life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "403",
+      "product_title": "iPhone 15",
+      "product_image": "https://i.ibb.co.com/1qthLdc/333.jpg",
+      "category": "iPhone",
+      "price": 799.99,
+      "description": "iPhone 15 with A16 Bionic chip, 5G support, and stunning 48MP camera.",
+      "specification": [
+        "1. A16 Bionic chip",
+        "2. 6.1-inch Super Retina display",
+        "3. 48MP camera system",
+        "4. 5G capable",
+        "5. 128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "404",
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://i.ibb.co.com/mX39wLK/44.jpg",
+      "category": "Smartwatch",
+      "price": 399.99,
+      "description": "Apple Watch Series 8 with advanced health tracking and always-on Retina display.",
+      "specification": [
+        "1. Blood oxygen monitor",
+        "2. ECG app",
+        "3. Always-on display",
+        "4. Water-resistant",
+        "5. WatchOS 9"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "405",
+      "product_title": "Wireless Charging Pad",
+      "product_image": "https://i.ibb.co.com/9sCKc6Y/55.jpg",
+      "category": "Accessories",
+      "price": 39.99,
+      "description": "Fast wireless charging pad for iPhone, Android, and other Qi-enabled devices.",
+      "specification": [
+        "1. Qi-compatible",
+        "2. 10W fast charging",
+        "3. LED indicator",
+        "4. Non-slip surface"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "406",
+      "product_title": "Gaming Laptop ROG Strix",
+      "product_image": "https://i.ibb.co.com/4N3PBVN/66.jpg",
+      "category": "Laptop",
+      "price": 1599.99,
+      "description": "High-performance gaming laptop with NVIDIA GeForce RTX 3070 and 16GB RAM.",
+      "specification": [
+        "1. Intel Core i7 processor",
+        "2. 16GB RAM",
+        "3. NVIDIA GeForce RTX 3070",
+        "4. 1TB SSD",
+        "5. 15.6-inch Full HD display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "407",
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://i.ibb.co.com/HgmLGCj/77.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "iPhone 14 Pro Max with a 6.7-inch Super Retina XDR display and A16 Bionic chip.",
+      "specification": [
+        "1. A16 Bionic chip",
+        "2. 6.7-inch OLED display",
+        "3. 48MP camera system",
+        "4. 5G capable",
+        "5. 128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "408",
+      "product_title": "Apple MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/31QhHMW/88.jpg",
+      "category": "MacBook",
+      "price": 999.00,
+      "description": "Apple MacBook Air with the powerful M1 chip, offering great performance and battery life.",
+      "specification": [
+        "1. Apple M1 chip",
+        "2. 8GB RAM",
+        "3. 256GB SSD",
+        "4. 13.3-inch Retina display",
+        "5. Up to 18 hours battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "409",
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.ibb.co.com/CMpZjN3/99.jpg",
+      "category": "Phones",
+      "price": 799.99,
+      "description": "Samsung Galaxy S22 with a 6.1-inch Dynamic AMOLED display and powerful camera features.",
+      "specification": [
+        "1. Snapdragon 8 Gen 1",
+        "2. 8GB RAM",
+        "3. 128GB storage",
+        "4. 50MP Triple camera",
+        "5. 5G support"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "410",
+      "product_title": "Fitbit Charge 5",
+      "product_image": "https://i.ibb.co.com/d7jzZR7/10.jpg",
+      "category": "Smartwatch",
+      "price": 149.99,
+      "description": "Fitbit Charge 5 with built-in GPS, heart rate monitoring, and 7-day battery life.",
+      "specification": [
+        "1. Built-in GPS",
+        "2. Heart rate monitoring",
+        "3. Sleep tracking",
+        "4. Water-resistant",
+        "5. Up to 7 days battery life"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "411",
+      "product_title": "Wireless Earbuds with Case",
+      "product_image": "https://i.ibb.co.com/0ZckPd1/11.jpg",
+      "category": "Accessories",
+      "price": 49.99,
+      "description": "Affordable wireless earbuds with a charging case and excellent sound quality.",
+      "specification": [
+        "1. Bluetooth 5.0",
+        "2. 5 hours playtime",
+        "3. Charging case included",
+        "4. Noise isolation"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "412",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co.com/kxCs3L9/12.jpg",
+      "category": "Laptop",
+      "price": 1499.99,
+      "description": "Lenovo ThinkPad X1 Carbon with Intel i7 processor, 16GB RAM, and 512GB SSD.",
+      "specification": [
+        "1. Intel Core i7 processor",
+        "2. 16GB RAM",
+        "3. 512GB SSD",
+        "4. 14-inch Full HD display",
+        "5. Windows 11"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "413",
+      "product_title": "Anker Wireless Charger",
+      "product_image": "https://i.ibb.co.com/SKxJ307/13.jpg",
+      "category": "Accessories",
+      "price": 25.99,
+      "description": "Anker wireless charging pad for quick and efficient charging of Qi-enabled devices.",
+      "specification": [
+        "1. 10W fast charging",
+        "2. Qi-compatible",
+        "3. Non-slip design",
+        "4. LED indicator"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "414",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/2WdHYw4/14.jpg",
+      "category": "Laptop",
+      "price": 1399.99,
+      "description": "Convertible laptop with Intel Core i7, 16GB RAM, and stunning 4K touchscreen display.",
+      "specification": [
+        "1. Intel Core i7 processor",
+        "2. 16GB RAM",
+        "3. 512GB SSD",
+        "4. 13.3-inch 4K touchscreen",
+        "5. Windows 11"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "415",
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://i.ibb.co.com/s6qQ3CL/15.jpg",
+      "category": "Phones",
+      "price": 899.99,
+      "description": "Google Pixel 7 Pro with a 6.7-inch OLED display, Google Tensor chip, and excellent cameras.",
+      "specification": [
+        "1. Google Tensor chip",
+        "2. 12GB RAM",
+        "3. 128GB storage",
+        "4. 50MP Triple camera system",
+        "5. 5G capable"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "416",
+      "product_title": "Apple Magic Mouse 2",
+      "product_image": "https://i.ibb.co.com/jrbxmLs/16.jpg",
+      "category": "Accessories",
+      "price": 79.99,
+      "description": "Apple Magic Mouse 2 with multi-touch surface and rechargeable battery.",
+      "specification": [
+        "1. Multi-touch surface",
+        "2. Rechargeable battery",
+        "3. Bluetooth connectivity",
+        "4. Lightweight design"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "417",
+      "product_title": "iPhone 13 Pro",
+      "product_image": "https://i.ibb.co.com/TL0rvS3/17.jpg",
+      "category": "iPhone",
+      "price": 999.99,
+      "description": "iPhone 13 Pro with A15 Bionic chip, ProMotion display, and improved cameras.",
+      "specification": [
+        "1. A15 Bionic chip",
+        "2. 6.1-inch Super Retina XDR display",
+        "3. 12MP Triple camera system",
+        "4. 5G capable",
+        "5. 128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "418",
+      "product_title": "Apple Pencil (2nd Generation)",
+      "product_image": "https://i.ibb.co.com/GdCk0Jj/18.png",
+      "category": "Accessories",
+      "price": 129.99,
+      "description": "Apple Pencil 2nd Generation for iPad, offering precision and low-latency drawing.",
+      "specification": [
+        "1. Magnetic attachment",
+        "2. Rechargeable battery",
+        "3. Supports tilt and pressure sensitivity",
+        "4. Compatible with iPad Pro and iPad Air"
+      ],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  
