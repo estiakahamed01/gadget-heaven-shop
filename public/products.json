@@ -1,6 +1,6 @@
 [
     {
-      "product_id": "401",
+      "product_id": 401,
       "product_title": "Dell XPS 13 Laptop",
       "product_image": "https://i.ibb.co.com/ws1BJN7/download.jpg",
       "category": "Laptop",
@@ -17,7 +17,7 @@
       "rating": 4.7
     },
     {
-      "product_id": "402",
+      "product_id": 402,
       "product_title": "MacBook Pro 14-inch M2",
       "product_image": "https://i.ibb.co.com/pzF0sFT/22.jpg",
       "category": "MacBook",
@@ -34,7 +34,7 @@
       "rating": 4.8
     },
     {
-      "product_id": "403",
+      "product_id": 403,
       "product_title": "iPhone 15",
       "product_image": "https://i.ibb.co.com/1qthLdc/333.jpg",
       "category": "iPhone",
@@ -51,7 +51,7 @@
       "rating": 4.9
     },
     {
-      "product_id": "404",
+      "product_id": 404,
       "product_title": "Apple Watch Series 8",
       "product_image": "https://i.ibb.co.com/mX39wLK/44.jpg",
       "category": "Smartwatch",
@@ -68,7 +68,7 @@
       "rating": 4.7
     },
     {
-      "product_id": "405",
+      "product_id": 405,
       "product_title": "Wireless Charging Pad",
       "product_image": "https://i.ibb.co.com/9sCKc6Y/55.jpg",
       "category": "Accessories",
@@ -84,7 +84,7 @@
       "rating": 4.5
     },
     {
-      "product_id": "406",
+      "product_id": 406,
       "product_title": "Gaming Laptop ROG Strix",
       "product_image": "https://i.ibb.co.com/4N3PBVN/66.jpg",
       "category": "Laptop",
@@ -101,7 +101,7 @@
       "rating": 4.6
     },
     {
-      "product_id": "407",
+      "product_id": 407,
       "product_title": "iPhone 14 Pro Max",
       "product_image": "https://i.ibb.co.com/HgmLGCj/77.jpg",
       "category": "iPhone",
@@ -118,7 +118,7 @@
       "rating": 4.9
     },
     {
-      "product_id": "408",
+      "product_id": 408,
       "product_title": "Apple MacBook Air M1",
       "product_image": "https://i.ibb.co.com/31QhHMW/88.jpg",
       "category": "MacBook",
@@ -135,7 +135,7 @@
       "rating": 4.7
     },
     {
-      "product_id": "409",
+      "product_id":409,
       "product_title": "Samsung Galaxy S22",
       "product_image": "https://i.ibb.co.com/CMpZjN3/99.jpg",
       "category": "Phones",
@@ -152,7 +152,7 @@
       "rating": 4.6
     },
     {
-      "product_id": "410",
+      "product_id": 410,
       "product_title": "Fitbit Charge 5",
       "product_image": "https://i.ibb.co.com/d7jzZR7/10.jpg",
       "category": "Smartwatch",
@@ -169,7 +169,7 @@
       "rating": 4.5
     },
     {
-      "product_id": "411",
+      "product_id": 411,
       "product_title": "Wireless Earbuds with Case",
       "product_image": "https://i.ibb.co.com/0ZckPd1/11.jpg",
       "category": "Accessories",
@@ -185,7 +185,7 @@
       "rating": 4.4
     },
     {
-      "product_id": "412",
+      "product_id": 412,
       "product_title": "Lenovo ThinkPad X1 Carbon",
       "product_image": "https://i.ibb.co.com/kxCs3L9/12.jpg",
       "category": "Laptop",
@@ -202,7 +202,7 @@
       "rating": 4.7
     },
     {
-      "product_id": "413",
+      "product_id": 413,
       "product_title": "Anker Wireless Charger",
       "product_image": "https://i.ibb.co.com/SKxJ307/13.jpg",
       "category": "Accessories",
@@ -218,7 +218,7 @@
       "rating": 4.6
     },
     {
-      "product_id": "414",
+      "product_id": 414,
       "product_title": "HP Spectre x360",
       "product_image": "https://i.ibb.co.com/2WdHYw4/14.jpg",
       "category": "Laptop",
@@ -235,7 +235,7 @@
       "rating": 4.8
     },
     {
-      "product_id": "415",
+      "product_id": 415,
       "product_title": "Google Pixel 7 Pro",
       "product_image": "https://i.ibb.co.com/s6qQ3CL/15.jpg",
       "category": "Phones",
@@ -252,7 +252,7 @@
       "rating": 4.7
     },
     {
-      "product_id": "416",
+      "product_id": 416,
       "product_title": "Apple Magic Mouse 2",
       "product_image": "https://i.ibb.co.com/jrbxmLs/16.jpg",
       "category": "Accessories",
@@ -268,7 +268,7 @@
       "rating": 4.6
     },
     {
-      "product_id": "417",
+      "product_id": 417,
       "product_title": "iPhone 13 Pro",
       "product_image": "https://i.ibb.co.com/TL0rvS3/17.jpg",
       "category": "iPhone",
@@ -285,7 +285,7 @@
       "rating": 4.8
     },
     {
-      "product_id": "418",
+      "product_id": 418,
       "product_title": "Apple Pencil (2nd Generation)",
       "product_image": "https://i.ibb.co.com/GdCk0Jj/18.png",
       "category": "Accessories",

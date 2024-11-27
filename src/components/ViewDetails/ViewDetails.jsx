@@ -3,7 +3,7 @@ import Specification from "../Specification/Specification";
 import { RiStarFill } from "react-icons/ri";
 import { BsCart3 } from "react-icons/bs";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
-import { addStoredCartList } from "../../utility/addToLS";
+import { addStoredCartList, addToStoredWishList } from "../../utility/addToLS";
 
 const ViewDetails = () => {
   const { product_id } = useParams();
@@ -23,6 +23,9 @@ const ViewDetails = () => {
 
   const handleAddToCart = (id) =>{
     addStoredCartList(id)
+  }
+  const handleAddToWishList = (id) =>{
+    addToStoredWishList(id)
   }
   
 
@@ -79,7 +82,7 @@ const ViewDetails = () => {
                 <button onClick={() => handleAddToCart(product_id)} className="inline-flex items-center gap-2 py-3 px-6 rounded-full font-semibold text-white bg-[#9538E2]">
                   Add To Cart <BsCart3 />
                 </button>
-                <button  className="border-[1px] p-3 text-gray-500 rounded-full text-2xl">
+                <button onClick={() => handleAddToWishList(product_id)} className="border-[1px] p-3 text-gray-500 rounded-full text-2xl">
                   <MdOutlineFavoriteBorder />
                 </button>
               </div>
