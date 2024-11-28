@@ -1,7 +1,9 @@
 import { RxCross1 } from "react-icons/rx";
 
-const Cart = ({cart}) => {
+const Cart = ({cart,setTotal,total}) => {
     const {product_image,product_title,specification,price} = cart
+    // console.log(price)
+    // setTotal(price+total)
     return (
         <div className="flex flex-row justify-between items-center p-2 border-[1px] border-gray-300 rounded-2xl">
             <div className="flex flex-row items-center space-x-5">

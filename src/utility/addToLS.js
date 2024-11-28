@@ -22,7 +22,6 @@ const addStoredCartList = (id) => {
 }
 
 const getStoredWishList = () => {
-    // read-list
     const storedWishListStr = localStorage.getItem('wish-list');
     if (storedWishListStr) {
         const storedWishList = JSON.parse(storedWishListStr);
@@ -46,4 +45,4 @@ const addToStoredWishList = (id) => {
 }
 
 
-export {addStoredCartList,getStoredCartList,addToStoredWishList}
+export {addStoredCartList,getStoredCartList,addToStoredWishList,getStoredWishList}

@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { getStoredCartList } from "../../utility/addToLS";
+import { getStoredCartList, getStoredWishList } from "../../utility/addToLS";
 import 'react-tabs/style/react-tabs.css';
 import Cart from "../Cart/Cart";
+import Wishlist from "../Wishlist/Wishlist";
 const Dashboard = () => {
     const allProducts = useLoaderData()
     const [cartList, setCartList] = useState([])
+    const [wishList, setWishList] = useState([])
     const [isActive, setIsActive] = useState(true)
+    const [total, setTotal] = useState(0)
+
     
 
     useEffect(() => {
@@ -17,6 +21,14 @@ const Dashboard = () => {
 
         setCartList(CartList)
     },[])
+    useEffect(() => {
+        const storedWishList = getStoredWishList()
+        const storedWishListInt = storedWishList.map(id => parseInt(id))
+        const WishListN = allProducts.filter(product => storedWishListInt.includes(product.product_id))
+
+        setWishList(WishListN)
+    },[])
+
     const handleCart = () =>{
       setIsActive(!isActive)
     }
@@ -40,22 +52,27 @@ const Dashboard = () => {
       </div>
     </div>
     {/* Cart Div */}
-    <div className="w-10/12 p-7 mx-auto space-y-4">
+    <div className={!isActive ? "hidden" : "w-10/12 p-7 mx-auto space-y-4 block"}>
       <div>
         <div>
           <h2 className="text-2xl font-bold">Cart</h2>
         </div>
         <div>
-          <h2>Total cost : </h2>
+          <h2>Total cost : {total}</h2>
         </div>
       </div>
       {
-        cartList.map(cart => <Cart key={cart.product_id} cart={cart}></Cart>)
+        cartList.map(cart => <Cart total={total} setTotal={setTotal} key={cart.product_id} cart={cart}></Cart>)
       }
     </div>
     {/* Wish Div */}
-    <div>
-
+    <div className={!isActive ? "w-10/12 p-7 mx-auto space-y-4 block" : "hidden"}>
+        <h2 className="text-2xl font-bold">Wishlist</h2>
+        <div>
+        {
+          wishList.map(wishlist => <Wishlist wishlist={wishlist} key={wishlist.product_id}></Wishlist>)
+        }
+        </div>
     </div>
     </div>
   );
