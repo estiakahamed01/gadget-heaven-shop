@@ -35,6 +35,11 @@ const Dashboard = () => {
     const handleWish = () =>{
       setIsActive(!isActive)
     }
+    const totalPrice = cartList.reduce((acc, current) => acc + current.price, 0);
+
+  useEffect(() => {
+    setTotal(totalPrice);
+  }, [totalPrice]);
   return (
     <div>
       <div className="bg-[#9538E2]">

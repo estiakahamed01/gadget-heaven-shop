@@ -11,8 +11,10 @@ const getStoredCartList = () => {
 
 const addStoredCartList = (id) => {
     const storedList = getStoredCartList()
-    if(storedList.includes(id)){
-        alert('Alrady Added')
+    const strId = JSON.stringify(id)
+    if(storedList.includes(strId)){
+        alert('Already Added')
+        return 
     }
     else{
         storedList.push(id)
