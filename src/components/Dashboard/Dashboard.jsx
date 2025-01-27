@@ -4,6 +4,7 @@ import { getStoredCartList, getStoredWishList } from "../../utility/addToLS";
 import 'react-tabs/style/react-tabs.css';
 import Cart from "../Cart/Cart";
 import Wishlist from "../Wishlist/Wishlist";
+import { BiSort } from "react-icons/bi";
 const Dashboard = () => {
     const allProducts = useLoaderData()
     const [cartList, setCartList] = useState([])
@@ -40,6 +41,11 @@ const Dashboard = () => {
   useEffect(() => {
     setTotal(totalPrice);
   }, [totalPrice]);
+
+  const sortByPrice = () => {
+    const sortedProducts = [...cartList].sort((a, b) => a.price - b.price);
+    setCartList(sortedProducts);
+  };
   return (
     <div>
       <div className="bg-[#9538E2]">
@@ -58,16 +64,18 @@ const Dashboard = () => {
     </div>
     {/* Cart Div */}
     <div className={!isActive ? "hidden" : "w-10/12 p-7 mx-auto space-y-4 block"}>
-      <div>
+      <div className="flex flex-row justify-between items-center">
         <div>
           <h2 className="text-2xl font-bold">Cart</h2>
         </div>
-        <div>
-          <h2>Total cost : {total}</h2>
+        <div className="flex flex-row items-center space-x-5">
+          <h2 className="text-2xl font-bold">Total cost : {total.toFixed(2)}</h2>
+          <h2 onClick={sortByPrice} className="text-lg inline-flex items-center px-5 py-2 rounded-full border-[#9538E2] border-[1px] font-bold">Sort By Price <BiSort /></h2>
+          <h2 className="px-5 py-2 rounded-full bg-[#9538E2] font-medium text-lg text-white">Purchase</h2>
         </div>
       </div>
       {
-        cartList.map(cart => <Cart total={total} setTotal={setTotal} key={cart.product_id} cart={cart}></Cart>)
+        cartList.map(cart => <Cart cartList={cartList} setCartList={setCartList} total={total} setTotal={setTotal} key={cart.product_id} cart={cart}></Cart>)
       }
     </div>
     {/* Wish Div */}

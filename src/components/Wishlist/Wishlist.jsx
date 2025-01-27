@@ -1,10 +1,10 @@
 import { RxCross1 } from "react-icons/rx";
-import { addStoredCartList } from "../../utility/addToLS";
+import {  wishListCart } from "../../utility/addToLS";
 
 const Wishlist = ({ wishlist }) => {
     const {product_image,product_title,specification,price,product_id} = wishlist;
     const handleAddToCart = (id) =>{
-        addStoredCartList(id)
+        wishListCart(id)
       }
     return (
         <div className="flex flex-row justify-between items-center p-2 border-[1px] border-gray-300 rounded-2xl">
